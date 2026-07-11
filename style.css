@@ -51,3 +51,16 @@ btn-register:hover {
     background-color: #1a5280;
     transform: translateY(-1px);
 }
+
+.hero-banner {
+    width: 100%;
+    min-height: 80vh;
+     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('banner-bg.jpg') no-repeat center center/cover;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    padding: 0 20px;
+}
