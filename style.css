@@ -30,7 +30,7 @@
 
 .nav-links a {
     text-decoration: none;
-    color: #08254b;
+    color: #2e0211;
     font-size: 15px;
     font-weight: 500;
     transition: color 0.3s ease;
@@ -38,7 +38,7 @@
 
 
 .nav-links a:hover {
-    color: #911717;
+    color: #ac85d1;
 }
 nav,.navbar,.navbar-container {
     height: 90px;
@@ -50,7 +50,7 @@ nav,.navbar,.navbar-container {
 
 .btn-register {
     text-decoration: none;
-    background-color: #0d3966; 
+    background-color: #5f031f; 
     color: #ffffff;
     padding: 10px 24px;
     border-radius: 6px;
@@ -62,7 +62,7 @@ nav,.navbar,.navbar-container {
 
 /* Hover effect for the button */
 .btn-register:hover {
-    background-color: #1a5280;
+    background-color: #0b7494;
     transform: translateY(-1px);
 }
 .hero-banner {
@@ -102,7 +102,7 @@ nav,.navbar,.navbar-container {
 
 .btn-hero-register {
     text-decoration: none;
-    background-color: #0ea5e9; 
+    background-color: #ca2053; 
     color: #ffffff;
     padding: 14px 32px;
     border-radius: 8px;
@@ -110,11 +110,11 @@ nav,.navbar,.navbar-container {
     font-weight: 600;
     transition: all 0.3s ease;
     display: inline-block;
-    box-shadow: 0 4px 15px rgba(14, 165, 233, 0.4);
+    box-shadow: 0 4px 15px rgba(167, 105, 123, 0.562);
 }
 
 .btn-hero-register:hover {
-    background-color: #0284c7;
+    background-color: #e74e8e;
     transform: translateY(-2px); 
 }
 
@@ -186,11 +186,11 @@ nav,.navbar,.navbar-container {
 
 .speaker-designation {
     font-size: 16px;
-    color: #666666;
+    color: #290202;
     margin: 0;
 }
 body {
-    background-color: rgb(188, 164, 233);
+    background-color: rgb(235, 207, 224);
 }
 
 html {
@@ -200,20 +200,20 @@ html {
     max-width: 1200px;
     margin: 0 auto;
     padding: 80px 20px;
-    background-color: #ffffff;
+    background-color: #c4abab;
     text-align: center;
 }
 
 .pricing-title {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #0b0f19;
+    color: #030a1b;
     margin-bottom: 10px;
 }
 
 .pricing-subtitle {
     font-size: 1rem;
-    color: #64748b;
+    color: #080113;
     margin-bottom: 50px;
 }
 
@@ -230,8 +230,8 @@ html {
     flex: 1;
     min-width: 300px;
     max-width: 360px;
-    background-color: #ffffff;
-    border: 1px dashed #cbd5e1; 
+    background-color: #925a7a;
+    border: 1px dashed #22011a; 
     border-radius: 12px;
     padding: 40px 30px;
     text-align: left;
@@ -242,10 +242,18 @@ html {
 
 
 .pricing-card.featured-card {
-    background-color: #0c1524; 
-    border: none;
-    color: #ffffff;
-    box-shadow: 0 10px 30px rgba(12, 21, 36, 0.15);
+
+   flex: 1;
+    min-width: 300px;
+    max-width: 360px;
+    background-color: #5f0359;
+    border: 1px dashed #e7dbe4; 
+    border-radius: 12px;
+    padding: 40px 30px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
 }
 
 
@@ -256,7 +264,7 @@ html {
     margin-bottom: 15px;
     display: block;
 }
-.label-light { color: #64748b; }
+.label-light { color: #d4ddeb; }
 .label-dark { color: #38bdf8; } 
 
 .plan-price {
@@ -264,7 +272,7 @@ html {
     font-weight: 800;
     line-height: 1;
 }
-.pricing-card:not(.featured-card) .plan-price { color: #0b0f19; }
+
 
 .price-per {
     font-size: 0.85rem;
@@ -295,7 +303,7 @@ html {
     position: absolute;
     left: 0;
 }
-.pricing-card:not(.featured-card) .plan-features li { color: #475569; }
+.pricing-card:not(.featured-card) .plan-features li { color: #ecedf0; }
 .pricing-card:not(.featured-card) .plan-features li::before { color: #94a3b8; }
 .featured-card .plan-features li { color: #e2e8f0; }
 .featured-card .plan-features li::before { color: #38bdf8; }
@@ -313,6 +321,7 @@ html {
 }
 
 
+
 .btn-light {
     border: 1px solid #cbd5e1;
     color: #0ea5e9;
@@ -322,6 +331,7 @@ html {
     background-color: #f8fafc;
     border-color: #0ea5e9;
 }
+
 
 
 .metrics-section {
@@ -380,7 +390,7 @@ html {
 .faq-subtitle {
     text-align: center;
     font-size: 1rem;
-    color: #64748b;
+    color: #1d55a5;
     margin-bottom: 50px;
 }
 
@@ -394,7 +404,7 @@ html {
 
 /* Individual FAQ block cards with clean border styles */
 .faq-item {
-    background-color: #f8fafc;
+    background-color: #e2d5de;
     border: 1px solid #edf2f7;
     border-radius: 8px;
     padding: 25px;
@@ -415,12 +425,12 @@ html {
 
 .faq-answer {
     font-size: 0.95rem;
-    color: #475569;
+    color: #082247;
     line-height: 1.5;
 }
 
 .main-footer {
-    background-color: #0b0f19;
+    background-color: #1d0116;
     color: #ffffff;
     padding: 60px 20px 20px 20px;
     margin-top: 60px;
