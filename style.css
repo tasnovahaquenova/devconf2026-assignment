@@ -130,12 +130,12 @@ nav,.navbar,.navbar-container {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #ffffff;
+    color: transparent;
     padding: 0 20px;
 }
 .speakers-section {
     padding: 60px 20px;
-    background-color: #ffffff;
+    background-color: transparent;
 }
 
 .section-title {
@@ -154,7 +154,7 @@ nav,.navbar,.navbar-container {
 }
 
 .speaker-card {
-    background: #ffffff;
+    background-color: transparent;
     border-radius: 12px;
 }
 
@@ -188,4 +188,11 @@ nav,.navbar,.navbar-container {
     font-size: 16px;
     color: #666666;
     margin: 0;
+}
+body {
+    background-color: rgb(188, 164, 233);
+}
+
+html {
+    scroll-behavior: smooth;
 }
