@@ -1,0 +1,53 @@
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clean modern font */
+}
+   
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.logo img {
+    height: 40px; /* Adjust height to fit your uploaded logo size */
+    display: block;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px; /* Space between links */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #08254b; /* Sleek greyish-white color from the Figma preview */
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect for links */
+.nav-links a:hover {
+    color: #911717;
+}
+.btn-register {
+    text-decoration: none;
+    background-color: #0d3966; /* Accurate deep blue from your design file */
+    color: #ffffff;
+    padding: 10px 24px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+}
+btn-register:hover {
+    background-color: #1a5280;
+    transform: translateY(-1px);
+}
